@@ -1,0 +1,55 @@
+.Header{
+    background-color: #121858;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.PlayerInfo > h2{
+    background-color: #efefef;
+}
+.PlayerInfo > button{
+    background-color: #121858;
+    color: white;
+    border-radius: 40%;
+    width: 50px;
+    height: 25px;
+}
+
+.circle-1,.circle-2,.circle-3,.circle-4{
+    height: 15px;
+    width: 15px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display:  inline-block;
+    margin-left: -3px;
+    margin-right: 5px;
+   
+}
+
+.round > p > button{
+    background-color: #121858;
+    color: white;
+    border-radius: 30%;
+    width: 50px;
+    height: 25px;
+}
+table {
+    margin-left: 50%;
+}
+img[alt~="GreenTick"]{
+    height: 20px;
+    width: 20px;
+}
+
+img[alt~="OrangeTick"]{
+    height: 20px;
+    width: 20px;
+}
+
+h3{
+    font-family: verdana;
+    font-size:13px;
+}
+.NumerosRand{
+	display: none;
+}

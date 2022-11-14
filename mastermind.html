@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MasterMind Name Enter</title>
+    <link rel="stylesheet" type="text/css" href="mastermind.css">
+    <script type="text/javascript" src="mastermind.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="Header" >
+        <h1 >Master Mind</h1>
+    </div>
+    <div class="PlayerInfo">
+        <h2><i>Let's play <span id="username"></span>!</i></h2>
+        <h3>Wins: <a id="wins">0</a>, Loses: <a id="loses">0</a></h3>
+    </div>
+	
+		<button onClick="reset()">Reset Score</button>
+
+
+<div>
+    <table id="dynamic-table">
+        <tr>
+            <th><span class="circle-1"></span></th>
+            <th><span class="circle-1"></span></th>
+            <th><span class="circle-1"></span></th>
+            <th><span class="circle-1"></span></th>
+            <th><img src="GreenTick.png" alt="GreenTick"></th>
+            <th><img src="OrangeTick.png" alt="OrangeTick"></th>
+            
+        </tr>
+    </table>
+</div>
+<div class="NumerosRand">
+    <p><span id="var1"></span></p>
+    <p><span id="var2"></span></p>
+    <p><span id="var3"></span></p>
+    <p><span id="var4"></span></p>
+</div>
+
+
+    <div>
+        <p>
+            <label for="username">Round <a id="clicks">0</a>:</label>
+            <input type="text" id="num" name="num">
+            <button onclick="onClick(); guess(); addComment()">Guess</button>
+        </p>
+    </div>
+
+
+
+
+</body>
+</html>
